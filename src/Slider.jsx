@@ -39,6 +39,7 @@ const Slideshow = () => {
               <div style={{ ...divStyle, 'backgroundImage': `url(${slideImage.url})` }}>
                 <span style={spanStyle}>{slideImage.caption}</span>
                 <p>new changes</p>
+                
               </div>
             </div>
           ))} 
